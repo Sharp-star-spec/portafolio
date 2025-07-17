@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre mí | Baljit Singh Kumari</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="background"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Baljit Singh</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html" class="active">Sobre mí</a></li>
+        <li><a href="proyectos.html">Proyecto</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="idiomas.html">Idiomas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about section tilt">
+      <div class="about-content">
+        <h2>Sobre mí</h2>
+         <p>Hola, soy <strong>Baljit Singh Kumari</strong>, un desarrollador web junior con gran entusiasmo por aprender y crecer en el mundo del desarrollo Full Stack.</p>
+    
+    <p>Estoy formado en HTML, CSS, JavaScript, PHP, y MySQL, y actualmente continúo mejorando mis habilidades con tecnologías como Node.js y React.</p>
+    
+    <p>Aunque todavía no tengo mucha experiencia profesional, he desarrollado proyectos personales que demuestran mi compromiso con la mejora constante y el aprendizaje autodidacta.</p>
+    
+    <p>Soy una persona proactiva, resolutiva y con muchas ganas de integrarme a un equipo de desarrollo para aportar y seguir creciendo.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Baljit Singh Kumari. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+  <!-- Particles.js library -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("background", {
+    particles: {
+      number: { value: 60 },
+      size: { value: 3 },
+      color: { value: "#ffffff" },
+      line_linked: {
+        enable: true,
+        distance: 120,
+        color: "#ffffff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: { enable: true, speed: 2 }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" }
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

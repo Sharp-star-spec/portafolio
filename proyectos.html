@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyectos | Baljit Singh Kumari</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="background"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Baljit Singh</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="proyectos.html" class="active">Proyectos</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="idiomas.html">Idiomas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <main>
+    <section class="about section tilt">
+      <div class="about-content">
+        <h2>Proyectos</h2>
+        <p>Aquí te muestro algunos de mis proyectos recientes:</p>
+
+        <div class="project-card tilt">
+          <img src="img/proyecto3.png" alt="Proyecto 3">
+          <h3>Tienda Online</h3>
+          <p>
+            E-commerce funcional con carrito y pasarela de pago, creado con PHP y JavaScript.
+          </p>
+          <div class="buttons">
+            <a href="#" target="_blank" class="btn">Ver Demo</a>
+            <a href="#" target="_blank" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="project-card tilt">
+        <img src="img/proyecto2.png" alt="Proyecto 2">
+        <h3>Portfolio Interactivo</h3>
+        <p>Un portafolio responsive con animaciones y efectos 3D modernos, desarrollado con HTML, CSS y JS.</p>
+        <div class="buttons">
+          <a href="#" target="_blank" class="btn">Ver Demo</a>
+          <a href="#" target="_blank" class="btn btn-outline">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="project-card tilt">
+        <img src="img/proyecto3.png" alt="Proyecto 3">
+        <h3>Tienda Online</h3>
+        <p>E-commerce funcional con carrito y pasarela de pago, creado con JavaScript y MySQL.</p>
+        <div class="buttons">
+          <a href="#" target="_blank" class="btn">Ver Demo</a>
+          <a href="#" target="_blank" class="btn btn-outline">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Baljit Singh Kumari. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+  <!-- Particles.js library -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("background", {
+    particles: {
+      number: { value: 60 },
+      size: { value: 3 },
+      color: { value: "#ffffff" },
+      line_linked: {
+        enable: true,
+        distance: 120,
+        color: "#ffffff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: { enable: true, speed: 2 }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" }
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

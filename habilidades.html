@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Habilidades | Baljit Singh Kumari</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="background"></div>
+
+  <header class="navbar">
+    <div class="logo">Baljit Singh</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="habilidades.html" class="active">Habilidades</a></li>
+        <li><a href="idiomas.html">Idiomas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+  <header class="navbar">
+    <!-- ...menú... -->
+  </header>
+
+  <main>
+
+  <section class="about section tilt">
+    <div class="about-content">
+      <h2>Habilidades Técnicas</h2>
+      <p>Estas son algunas de las tecnologías y herramientas que manejo:</p>
+      <ul style="list-style: none; padding: 0;">
+        <li>✅ HTML5, CSS3, JavaScript</li>
+        <li>✅ PHP, MySQL</li>
+        <li>✅ Git, GitHub</li>
+        <li>✅ Apache, Servidor Ubuntu</li>
+        <li>✅ Node.js, React (en progreso)</li>
+        <li>✅ Scrum y metodologías ágiles</li>
+      </ul>
+    </div>
+  </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2025 Baljit Singh Kumari. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+  <!-- Particles.js library -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("background", {
+    particles: {
+      number: { value: 60 },
+      size: { value: 3 },
+      color: { value: "#ffffff" },
+      line_linked: {
+        enable: true,
+        distance: 120,
+        color: "#ffffff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: { enable: true, speed: 2 }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" }
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
